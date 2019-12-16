@@ -8,7 +8,7 @@ const app = express();
 
 
 // add your routes and middleware below
-app.use(morgan('tiny'));
+app.use(morgan('dev'));
 
 app.get('/', function(req, res) {
   console.log('I used to be an adventurer like you until I took an arrow to the knee.'),
